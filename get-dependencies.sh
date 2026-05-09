@@ -6,14 +6,18 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm k3b cdparanoia dvd+rw-tools
+pacman -Syu --noconfirm cdparanoia dvd+rw-tools qt6ct kvantum lxqt-qtplugin
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
+export PRE_BUILD_CMDS="
+	sed -i -e '/webengine/d' ./PKGBUILD
+	sed -i -e 's|LIBEXECDIR=lib|LIBEXECDIR=lib -DHAVE_QTWEBENGINEWIDGETS=OFF|' ./PKGBUILD
+"
+make-aur-package --archlinux-pkg k3b
 
 # If the application needs to be manually built that has to be done down here
 
