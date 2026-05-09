@@ -10,7 +10,7 @@ pacman -Syu --noconfirm cdparanoia dvd+rw-tools qt6ct kvantum lxqt-qtplugin
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano x265-mini kiconthemes-mini
 
 # Comment this out if you need an AUR package
 export PRE_BUILD_CMDS="
