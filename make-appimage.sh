@@ -18,8 +18,8 @@ quick-sharun \
 	/usr/lib/qt6/plugins/k3b_plugins \
 	/usr/lib/qt6/plugins/kf6         \
 	/usr/bin/cdparanoia              \
-	usr/bin/dvd*                     \
-	usr/bin/growisofs
+	/usr/bin/dvd*                    \
+	/usr/bin/growisofs
 
 # Additional changes can be done in between here
 
