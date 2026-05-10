@@ -8,10 +8,10 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	cdparanoia    \
-	cdrdao	      \
-	cdrtools	  \
+	cdrdao        \
+	cdrtools      \
 	dvd+rw-tools  \
-	kvantum		  \
+	kvantum       \
 	lxqt-qtplugin \
 	qt6ct
 
