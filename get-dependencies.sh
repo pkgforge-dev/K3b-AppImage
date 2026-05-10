@@ -6,7 +6,14 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm cdparanoia dvd+rw-tools qt6ct kvantum lxqt-qtplugin
+pacman -Syu --noconfirm \
+	cdparanoia    \
+	cdrdao	      \
+	cdrtools	  \
+	dvd+rw-tools  \
+	kvantum		  \
+	lxqt-qtplugin \
+	qt6ct
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
