@@ -7,12 +7,13 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	cdparanoia    \
-	libisoburn    \
-	libburn       \
-	libisofs      \
-	kvantum       \
-	lxqt-qtplugin \
+	cdparanoia       \
+	libcdio-paranoia \
+	libisoburn       \
+	libburn          \
+	libisofs         \
+	kvantum          \
+	lxqt-qtplugin    \
 	qt6ct
 
 echo "Installing debloated packages..."
