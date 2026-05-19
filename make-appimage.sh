@@ -17,26 +17,13 @@ quick-sharun \
 	/usr/share/k3b                   \
 	/usr/lib/qt6/plugins/k3b_plugins \
 	/usr/lib/qt6/plugins/kf6         \
-	/usr/bin/cd*                     \
-	/usr/bin/dvd*                    \
-	/usr/bin/growisofs               \
-	/usr/bin/btcflash                \
-	/usr/bin/devdump                 \
-	/usr/bin/genisoimage             \
-	/usr/bin/icedax                  \
-	/usr/bin/is*                     \
-	/usr/bin/mkhybrid                \
-	/usr/bin/mkisofs                 \
-	/usr/bin/readcd                  \
-	/usr/bin/readom                  \
-	/usr/bin/rscsi                   \
-	/usr/bin/scg*                    \
-	/usr/bin/wodim                   \
-	/usr/lib/modules-load.d          \
-	/usr/lib/siconv                  \
-	/usr/bin/cue2toc                 \
-	/usr/bin/toc2*                   \
-	/usr/share/cdrdao
+	/usr/bin/cdrskin                 \
+	/usr/bin/xorriso                 \
+	/usr/bin/xorrecord               \
+	/usr/bin/xorrisofs               \
+	/usr/bin/osirrox                 \
+	/usr/bin/cdparanoia              \
+	/usr/bin/cd-paranoia
 
 # Additional changes can be done in between here
 

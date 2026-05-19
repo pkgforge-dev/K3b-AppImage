@@ -8,9 +8,9 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	cdparanoia    \
-	cdrdao        \
-	cdrtools      \
-	dvd+rw-tools  \
+	libisoburn    \
+	libburn       \
+	libisofs      \
 	kvantum       \
 	lxqt-qtplugin \
 	qt6ct
